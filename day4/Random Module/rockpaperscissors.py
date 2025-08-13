@@ -30,8 +30,6 @@ ASCII = {
 
 CHOICES = ("rock", "paper", "scissors")
 
-comp = random.choice(CHOICES)
-
 # Winner logic function. 
 def decide_winner(player: str, comp: str):
     if player == comp:
